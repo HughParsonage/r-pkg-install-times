@@ -6,8 +6,11 @@ install: echo Installation step
 
 script:
 - R -e 'l <- tempfile();dir.create(l);install.packages("dplyr", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
+- R -e 'l <- tempfile();dir.create(l);install.packages("readr", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 - R -e 'l <- tempfile();dir.create(l);install.packages("grattan", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 - R -e 'l <- tempfile();dir.create(l);install.packages("TeXCheckR", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 - R -e 'l <- tempfile();dir.create(l);install.packages("knitr", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 - R -e 'l <- tempfile();dir.create(l);install.packages("xlsx", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
+- R -e 'l <- tempfile();dir.create(l);install.packages("RPANDA", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
+- R -e 'l <- tempfile();dir.create(l);install.packages("maGUI", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 
