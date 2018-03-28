@@ -1,0 +1,9 @@
+language: R
+latex: false
+pandoc: false
+
+install: echo Installation step
+
+script:
+- R -e 'install.packages("dplyr", repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
+
