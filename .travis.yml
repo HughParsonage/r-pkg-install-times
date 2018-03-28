@@ -11,6 +11,6 @@ script:
 - Rscript -e 'l <- tempfile();dir.create(l);install.packages("TeXCheckR", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 - Rscript -e 'l <- tempfile();dir.create(l);install.packages("knitr", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 - Rscript -e 'l <- tempfile();dir.create(l);install.packages("xlsx", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
-- Rscript -e 'install.packages("RPANDA", lib="AB", repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
-- Rscript -e 'l <- tempfile();dir.create(l);install.packages("maGUI", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
+- Rscript -e 'install.packages("RPANDA", lib="AB", repos = "https://cran.uni-muenster.de/", quiet = FALSE)'
+- Rscript -e 'l <- tempfile();dir.create(l);install.packages("maGUI", lib=l, repos = "https://cran.uni-muenster.de/", quiet = FALSE)'
 
