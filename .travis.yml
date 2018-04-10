@@ -12,4 +12,5 @@ script:
 - Rscript -e 'l <- tempfile();dir.create(l);install.packages("knitr", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 - Rscript -e 'l <- tempfile();dir.create(l);install.packages("xlsx", lib=l, repos = "https://cran.uni-muenster.de/", quiet = TRUE)'
 - Rscript -e 'l <- tempfile();dir.create(l);install.packages("checkmate", lib=l, repos = "https://cran.uni-muenster.de/", quiet = FALSE)'
+- Rscript -e 'l <- tempfile();dir.create(l);install.packages("hutils", lib=l, repos =  "https://cloud.r-project.org", quiet = FALSE)'
 
